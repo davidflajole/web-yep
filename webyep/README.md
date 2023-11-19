@@ -1,5 +1,23 @@
 # Webyep
 
+create webyep project folder
+git clone https://github.com/davidflajole/web-yep.git
+mix deps.get
+
+mix ecto.setup
+
+mix ecto.gen.migration create_auctions
+mix ecto.gen.migration create_lots
+mix ecto.gen.migration create_bidders
+
+
+
+
+
+
+
+
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
